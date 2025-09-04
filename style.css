@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dap{
+    font-family: "Asimovian", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    background-color: #ffffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px rgb(230, 230, 230);
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+}
+
+.navlisticon{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+ul{
+    margin-right: 75px;
+}
+
+li{
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+li:hover{
+    background-color: rgb(230, 230, 230);
+    transition: background 0.4s ease;
+}
+
+.profileicon{
+    border: 1px black;
+    border-radius: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 4px;
+}
+
+.profile_background{
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.profile_background:hover{
+    background-color: rgb(230, 230, 230);
+    transition: background 0.4s ease;
+}
+
+.search_section{
+    display: flex;
+    justify-content: center;
+}
+
+.search_div{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    border-radius:10px;
+    width: 50%;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.search_bar{
+    background-color: transparent;
+    width: 95%;
+    border-style: none;
+    margin: 12px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.find_button{
+    margin-top: 4px;
+    margin-right: 4px;
+    filter: invert(50%);
+}
+
+.dapnap_section{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    font-family: "Asimovian", sans-serif;
+    font-weight: 600;
+}
+
+.aps_section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aps_text{
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.aps_text:hover{
+    background-color: rgb(230, 230, 230);
+    transition: background 0.4s ease;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.img{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    filter: brightness(95%);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(230, 230, 230);
+    height: 100px;
+}
+
+.footer_text{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-family: "Asimovian";
+}
+
+.footer_text:hover{
+    text-decoration: underline;
+}
